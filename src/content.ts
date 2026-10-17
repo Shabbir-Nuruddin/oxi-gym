@@ -1,5 +1,4 @@
-import "@fontsource/mukta/600.css";
-import "@fontsource/mukta/800.css";
+import "@fontsource/syne/800.css";
 import type { Site } from "./lib";
 
 export const SITE: Site = {
@@ -18,59 +17,85 @@ export const SITE: Site = {
   "lon": 77.0464998,
   "hours": [
     [
-      18.5,
-      20.5
+      [
+        18.5,
+        20.5
+      ]
     ],
     [
-      6,
-      10,
-      17.5,
-      21
+      [
+        6,
+        10
+      ],
+      [
+        17.5,
+        21
+      ]
     ],
     [
-      6,
-      10,
-      17.5,
-      21
+      [
+        6,
+        10
+      ],
+      [
+        17.5,
+        21
+      ]
     ],
     [
-      6,
-      10,
-      17.5,
-      21
+      [
+        6,
+        10
+      ],
+      [
+        17.5,
+        21
+      ]
     ],
     [
-      6,
-      10,
-      17.5,
-      21
+      [
+        6,
+        10
+      ],
+      [
+        17.5,
+        21
+      ]
     ],
     [
-      6,
-      10,
-      17.5,
-      21
+      [
+        6,
+        10
+      ],
+      [
+        17.5,
+        21
+      ]
     ],
     [
-      6.5,
-      10
+      [
+        6.5,
+        10
+      ]
     ]
   ],
   "theme": {
-    "dark": false,
-    "bg": "#ffffff",
-    "bg2": "#f4f4f2",
-    "panel": "#ffffff",
-    "ink": "#111111",
-    "ink2": "#4b4b4b",
-    "ink3": "#858585",
-    "line": "#e4e4e0",
-    "onAccent": "#ffffff",
-    "display": "Mukta",
+    "dark": true,
+    "bg": "#061011",
+    "bg2": "#0f1819",
+    "panel": "#151e1f",
+    "ink": "#eef2ed",
+    "ink2": "#bbc0bd",
+    "ink3": "#7f8683",
+    "line": "#212a2b",
+    "accent": "#2ee6c8",
+    "onAccent": "#072520",
+    "display": "Syne",
     "weight": 800,
-    "upper": false,
-    "accent": "#c2410c"
+    "upper": false
   },
+  "scene": "neon",
+  "align": "right",
   "hero": {
     "title": [
       {
@@ -86,13 +111,7 @@ export const SITE: Site = {
       "en": "4.7 on Google from 426 reviews. Members write about owner and coach Ajay sir, a spotless, hygienic floor and a separate yoga studio in Sector 23A.",
       "hi": "गूगल पर 426 रिव्यू से 4.7। मेंबर मालिक और कोच अजय सर, बेहद साफ़-सुथरे फ़्लोर और सेक्टर 23ए के अलग योग स्टूडियो के बारे में लिखते हैं।"
     },
-    "fallback": "/img/p4.jpg",
-    "slides": [
-      "/img/p4.jpg",
-      "/img/p1.jpg",
-      "/img/p9.jpg",
-      "/img/p12.jpg"
-    ]
+    "fallback": "/img/p4.jpg"
   },
   "marquee": [
     "Strength",
@@ -334,5 +353,40 @@ export const SITE: Site = {
       "en": "Hi OXI Gym, I'd like to enquire:",
       "hi": "नमस्ते ऑक्सी जिम, मुझे जानकारी चाहिए:"
     }
-  }
+  },
+  "story": [
+    {
+      "kicker": {
+        "en": "Space",
+        "hi": "जगह"
+      },
+      "title": {
+        "en": "Never overcrowded.",
+        "hi": "कभी भीड़ नहीं।"
+      },
+      "quote": "The gym is not overcrowded and my trainer Ajay sir is enthusiastic, engaging and well prepared."
+    },
+    {
+      "kicker": {
+        "en": "Clean",
+        "hi": "सफ़ाई"
+      },
+      "title": {
+        "en": "Spotless, every day.",
+        "hi": "हर दिन चमचमाता।"
+      },
+      "quote": "The gym is always well-maintained, with spotless equipment and a fresh environment that makes workouts enjoyable."
+    },
+    {
+      "kicker": {
+        "en": "Coaches",
+        "hi": "कोच"
+      },
+      "title": {
+        "en": "Ajay and Gaurav check your form.",
+        "hi": "अजय और गौरव आपका फ़ॉर्म देखते हैं।"
+      },
+      "quote": "I really like the way he explains the right way to do exercise."
+    }
+  ]
 };
